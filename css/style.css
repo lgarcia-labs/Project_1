@@ -1,5 +1,8 @@
 body {
-    background: linear-gradient(135deg, #4a4a4a, #858585);
+	background: url("../images/background.png") ;  /* Add the background image here */
+    background-size: cover;  /* Make the image cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Make the background stay fixed when scrolling */
     font-family: 'Comic Sans MS', 'Comic Neue', Arial, cursive;
     text-align: center;
     color: #ddd;
@@ -68,3 +71,4 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background: rgba(255, 255, 255, 0.3);
 }
+ 

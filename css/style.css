@@ -15,12 +15,12 @@ body {
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 2.1rem;
     margin-bottom: 1rem;
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     line-height: 1.6;
     margin-bottom: 1.5rem;
 }
@@ -61,7 +61,7 @@ input[type="submit"] {
     color: #ddd;
     font-size: 2rem;
     padding: 1.2rem;
-    width: 100%;
+    width: 110%;
     border: none;
     border-radius: 5px;
     cursor: pointer;

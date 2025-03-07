@@ -1,40 +1,70 @@
 body {
-    background-color: #1a1a1a;
-    color: #ffffff;
+    background: linear-gradient(135deg, #4a4a4a, #858585);
+    font-family: 'Comic Sans MS', 'Comic Neue', Arial, cursive;
+    text-align: center;
+    color: #ddd;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    flex-direction: column;
-    text-align: center;
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
 }
 
 form {
-    background: #2e2e2e;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 350px;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
-    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-input {
+label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"] {
+    font-size: 1rem;
+    color: #ddd;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.8rem;
     width: 100%;
-    padding: 10px;
-    margin: 10px 0;
     border: none;
     border-radius: 5px;
+    text-align: center;
+    box-shadow: inset 0 2px 5px rgba(255, 255, 255, 0.2);
+    margin-bottom: 1rem;
 }
 
-button {
-    background: #ffcc00;
-    border: none;
-    padding: 10px;
+input[type="submit"] {
+    background: rgba(255, 255, 255, 0.2);
+    color: #ddd;
+    font-size: 1rem;
+    padding: 0.8rem;
     width: 100%;
+    border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
+    transition: background 0.3s;
 }
 
-button:hover {
-    background: #e6b800;
+input[type="submit"]:hover {
+    background: rgba(255, 255, 255, 0.3);
 }

@@ -1,19 +1,39 @@
 /* General reset already handled in reset.css */
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Orbitron:wght@600&family=Raleway&display=swap');
 
 body {
-  background: url("../images/background.png");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  font-family: 'Comic Sans MS', 'Comic Neue', Arial, cursive;
-  color: #ddd;
-  margin: 0;
-  padding: 0;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+    background: url("../images/background.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Comic Neue', Arial, cursive;
+    text-align: center;
+    color: #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+h3#sign-up {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+
+p {
+    font-family: 'Comic Neue', Arial, sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
 }
 
 /* This section wraps and centers the entire form block */

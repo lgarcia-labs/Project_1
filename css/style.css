@@ -1,5 +1,5 @@
 body {
-	background: url("../images/background.png") ;  /* Add the background image here */
+	background: url("../images/background.png");  /* Add the background image here */
     background-size: cover;  /* Make the image cover the entire viewport */
     background-position: center; /* Center the image */
     background-attachment: fixed; /* Make the background stay fixed when scrolling */
@@ -29,6 +29,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 100%;
     max-width: 350px;
     padding: 2rem;
@@ -48,12 +49,15 @@ input[type="text"], input[type="email"] {
     color: #ddd;
     background: rgba(255, 255, 255, 0.1);
     padding: 0.8rem;
-    width: 100%;
+    width: 100%; /* Ensures it takes full form width */
+    max-width: 280px; /* Prevents excessive stretching */
     border: none;
     border-radius: 5px;
     text-align: center;
     box-shadow: inset 0 2px 5px rgba(255, 255, 255, 0.2);
     margin-bottom: 1rem;
+    display: flex;
+    justify-content: center; /* Ensures the text box itself is centered */
 }
 
 input[type="submit"] {
@@ -61,7 +65,8 @@ input[type="submit"] {
     color: #ddd;
     font-size: 2rem;
     padding: 1.2rem;
-    width: 110%;
+    width: 100%;
+    max-width: 310px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -71,4 +76,3 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background: rgba(255, 255, 255, 0.3);
 }
- 

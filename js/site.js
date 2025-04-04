@@ -1,4 +1,4 @@
-etTimeout(function() {
+setTimeout(function() {
       // Simulate the button click
       document.getElementById("submit-button").click();
       // Show the "Thanks for signing up" message

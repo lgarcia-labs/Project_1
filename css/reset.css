@@ -19,7 +19,6 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
- 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, main, menu, nav, section {
 	display: block;
@@ -45,7 +44,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 button,
 input,
 optgroup,
@@ -56,15 +54,10 @@ textarea {
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
 }
-
- 
-
 button,
 input { /* 1 */
   overflow: visible;
 }
-
-
 button,
 select { /* 1 */
   text-transform: none;
@@ -77,9 +70,6 @@ html [type="button"], /* 1 */
 [type="submit"] {
   -webkit-appearance: button; /* 2 */
 }
-
- 
-
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -112,7 +102,6 @@ legend {
   padding: 0; /* 3 */
   white-space: normal; /* 1 */
 }
-
  
 progress {
   display: inline-block; /* 1 */
